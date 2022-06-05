@@ -8,9 +8,6 @@ import FrontPage from "./components/Front-Page";
 import LoginPage from "./components/Login-page";
 import Homepage from "./components/Home-page";
 
-
-
-
 class App extends Component {
   render() {
     return (
@@ -26,8 +23,6 @@ class App extends Component {
             <Route exact path="/Login" element={<LoginPage />} />
             <Route exact path="/Login/Homepage" element={<Homepage />} />
             <Route exact path="/home/AllUsers" element={<AllUserList />} />            
-
-                  
           </Routes>
         </div>  
       </div>
