@@ -6,6 +6,9 @@ import Logo from './pictures/CYC-Logo.png';
 import AllUserList from "./components/All-Users";
 import FrontPage from "./components/Front-Page";
 import LoginPage from "./components/Login-page";
+import Homepage from "./components/Home-page";
+
+
 
 
 class App extends Component {
@@ -21,7 +24,10 @@ class App extends Component {
           <Routes>
             <Route exact path="/" element={<FrontPage />} />
             <Route exact path="/Login" element={<LoginPage />} />
-            <Route exact path="/home/AllUsers" element={<AllUserList />} />      
+            <Route exact path="/Login/Homepage" element={<Homepage />} />
+            <Route exact path="/home/AllUsers" element={<AllUserList />} />            
+
+                  
           </Routes>
         </div>  
       </div>
