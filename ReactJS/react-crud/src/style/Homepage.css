@@ -2,7 +2,7 @@
     color: White;
     background-color:#203864;
     padding: 15.5px;
-    border-radius: 90px;
+    border-radius: 12px;
     border-color: black;
     text-align: center;
     text-decoration: none;
@@ -16,7 +16,7 @@
 }
 
 .btn-Search {
-    background-color: #203864;
+    background-color: #278cdb;
     position: relative;
     left: 25cm;
 }
