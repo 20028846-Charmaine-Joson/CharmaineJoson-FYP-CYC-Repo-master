@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import UserDataService from "../services/cyc-fyp.service";
 import "../style/Homepage.css";
-import human from "../pictures/human.png";
+import face  from "../pictures/Face.jpg";
 
 
 export default class Homepage extends Component {
@@ -12,7 +12,7 @@ export default class Homepage extends Component {
 
             <div>
                 <span class="dot"></span>
-                <img src={human} alt="human" className="human-logo" />
+                <img src={face} alt="face" className="human-logo" />
                 <nav className="navbar navbar-expand-md AllUser-bar fixedtop">
                     <h2>Dashboard</h2>
                     <form class="d-flex" method="POST" action="/" no validate>
