@@ -7,6 +7,8 @@ import AllUserList from "./components/All-Users";
 import FrontPage from "./components/Front-Page";
 import LoginPage from "./components/Login-page";
 import Homepage from "./components/Home-page";
+import ViewVinesList from "./components/View-Vines";
+
 
 class App extends Component {
   render() {
@@ -22,7 +24,9 @@ class App extends Component {
             <Route exact path="/" element={<FrontPage />} />
             <Route exact path="/Login" element={<LoginPage />} />
             <Route exact path="/home" element={<Homepage />} />
-            <Route exact path="/home/AllUsers" element={<AllUserList />} />            
+            <Route exact path="/home/AllUsers" element={<AllUserList />} /> 
+            <Route exact path="/home/ViewVines" element={<ViewVinesList />} />            
+           
           </Routes>
         </div>  
       </div>

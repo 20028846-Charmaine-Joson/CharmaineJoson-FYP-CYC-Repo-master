@@ -49,7 +49,7 @@ export default class Homepage extends Component {
                 </div>
 
                 <div className="input-group">
-                    <Link style={{textDecoration: "none"}} to={"/vines"}>
+                    <Link style={{textDecoration: "none"}} to={"/home/ViewVines"}>
                     <p class="ButtonSolid">Vines</p>
                     </Link>
                 </div>
