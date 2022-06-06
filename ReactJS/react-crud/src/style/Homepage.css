@@ -1,0 +1,22 @@
+.ButtonSolid {
+    color: White;
+    background-color:#203864;
+    padding: 15.5px;
+    border-radius: 90px;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
+    border-width: 15px;
+    margin-top: 25px;
+  }
+
+  .SearchBar {
+    position: relative;
+    left: 24.5cm;
+}
+
+.btn-Search {
+    background-color: #203864;
+    position: relative;
+    left: 25cm;
+}

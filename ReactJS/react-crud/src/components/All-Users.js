@@ -57,9 +57,9 @@ export default class AllUserList extends Component {
                         <input
                             class="form-control SearchBar"
                             type="search user"
-                            placeholder="Search user"
+                            placeholder="Search User"
                             name="search user"
-                            aria-label="Search user"
+                            aria-label="Search User"
                         />
                         <button class="btn btn-primary btn-Search" >Search</button>
                     </form>
