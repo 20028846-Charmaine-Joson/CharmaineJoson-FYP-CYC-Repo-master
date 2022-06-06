@@ -21,7 +21,7 @@ class App extends Component {
           <Routes>
             <Route exact path="/" element={<FrontPage />} />
             <Route exact path="/Login" element={<LoginPage />} />
-            <Route exact path="/Login/Homepage" element={<Homepage />} />
+            <Route exact path="/home" element={<Homepage />} />
             <Route exact path="/home/AllUsers" element={<AllUserList />} />            
           </Routes>
         </div>  
