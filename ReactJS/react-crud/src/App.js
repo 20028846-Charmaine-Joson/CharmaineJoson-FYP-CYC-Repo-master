@@ -8,7 +8,7 @@ import FrontPage from "./components/Front-Page";
 import LoginPage from "./components/Login-page";
 import Homepage from "./components/Home-page";
 import ViewVinesList from "./components/View-Vines";
-
+import AllBadgesList from "./components/All-Badges";
 
 class App extends Component {
   render() {
@@ -25,8 +25,9 @@ class App extends Component {
             <Route exact path="/Login" element={<LoginPage />} />
             <Route exact path="/home" element={<Homepage />} />
             <Route exact path="/home/AllUsers" element={<AllUserList />} /> 
-            <Route exact path="/home/ViewVines" element={<ViewVinesList />} />            
-           
+            <Route exact path="/home/ViewVines" element={<ViewVinesList />} />   
+            <Route exact path="/home/AllBadges" element={<AllBadgesList />} />
+            
           </Routes>
         </div>  
       </div>

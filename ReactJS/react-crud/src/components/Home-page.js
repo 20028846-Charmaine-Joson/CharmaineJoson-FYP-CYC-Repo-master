@@ -41,7 +41,7 @@ export default class Homepage extends Component {
         
                 <div className="input-group">
                         
-                    <Link style={{textDecoration: "none"}} to={"/badges"}>
+                    <Link style={{textDecoration: "none"}} to={"/home/AllBadges"}>
                         
                     <p class="ButtonSolid">Badges</p>
     
