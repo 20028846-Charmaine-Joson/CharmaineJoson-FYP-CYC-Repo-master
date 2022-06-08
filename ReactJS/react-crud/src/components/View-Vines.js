@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import UserDataService from "../services/cyc-fyp.service";
 import "../style/ViewVines.css";
 import face  from "../pictures/Face.jpg";
-import vines from "../pictures/vine.png";
+import vines from "../pictures/ViewVines.jpg";
 
 
 export default class ViewVines extends Component {
@@ -32,14 +32,26 @@ export default class ViewVines extends Component {
                 <text>
                     Home -&gt; Vines
 
-                    <Link style={{textDecoration: "none"}} to={"/home/ViewVines/AddVine"}>
-                <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add EditVines">Edit Vine</a>
+                <Link style={{textDecoration: "none"}} to={"/home/ViewVines/VineDetail"}>
+                    <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add viewVines">Vine Details</a>
                 </Link>
 
-                    <Link style={{textDecoration: "none"}} to={"/home/ViewVines/AddVine"}>
-                <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add addVines">Add Vine</a>
+                <Link style={{textDecoration: "none"}} to={"/home/ViewVines/EditVine"}>
+                    <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add EditVines">Edit Vine</a>
                 </Link>
-               </text>
+                
+                <Link style={{textDecoration: "none"}} to={"/home/ViewVines/AddVine"}>
+                        <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add addVines">Add Vine</a>
+                </Link>
+
+
+                </text>
+                
+               
+
+                <div> 
+                <img src={vines}  alt="vines" className="vine-logo" />
+                </div>
 
                
             </div>

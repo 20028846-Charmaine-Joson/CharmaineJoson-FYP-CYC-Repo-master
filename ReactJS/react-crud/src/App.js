@@ -11,7 +11,8 @@ import ViewVinesList from "./components/View-Vines";
 import AllBadgesList from "./components/All-Badges";
 import PlaygroundDisplay from "./components/Playground-Display";
 import AddVine from "./components/Add-Vine";
-
+import EditVine from "./components/Edit-Vine";
+import VineDetail from "./components/Vine-Detail";
 
 class App extends Component {
   render() {
@@ -30,6 +31,9 @@ class App extends Component {
             <Route exact path="/home/AllUsers" element={<AllUserList />} /> 
             <Route exact path="/home/ViewVines" element={<ViewVinesList />} />   
             <Route exact path="/home/ViewVines/AddVine" element={<AddVine />} />
+            <Route exact path="/home/ViewVines/EditVine" element={<EditVine />} />
+            <Route exact path="/home/ViewVines/VineDetail" element={<VineDetail />} />
+
             <Route exact path="/home/AllBadges" element={<AllBadgesList />} />
             <Route exact path="/home/playground" element={<PlaygroundDisplay />} />
             

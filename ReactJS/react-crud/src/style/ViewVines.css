@@ -8,3 +8,9 @@
     position: relative;
     left: 25cm;
 }
+
+.vine-logo {
+    height: 400px;
+    width: 450;
+    bottom: 10px;
+}

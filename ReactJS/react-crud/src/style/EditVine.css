@@ -1,0 +1,45 @@
+.SearchBar {
+    position: relative;
+    left: 24.5cm;
+}
+
+.btn-Search {
+    background-color: #278cdb;
+    position: relative;
+    left: 25cm;
+}
+
+.EditVine {
+    position: relative;
+    right: 0cm;
+    width: 10cm;
+    margin-top: 20px;
+
+
+}
+
+.EditDescriptionVine {
+    position: relative;
+    right: 0cm;
+    height: 5cm;
+    width: 10cm;
+    margin-top: 20px;
+    
+}
+
+.EditVineBtn {
+    background-color: #203864;
+    position: relative;
+    left: -10cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.EditBackBtn {
+    background-color: #203864;
+    position: relative;
+    left: -10cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
