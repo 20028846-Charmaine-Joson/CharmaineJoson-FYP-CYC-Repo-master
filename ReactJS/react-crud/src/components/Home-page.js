@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import UserDataService from "../services/cyc-fyp.service";
 import "../style/Homepage.css";
-import face  from "../pictures/Face.jpg";
+import face from "../pictures/Face.jpg";
+//import human from "../pictures/human.png";
+//import badge from "../pictures/badge.png";
 
 
 export default class Homepage extends Component {
@@ -34,17 +36,14 @@ export default class Homepage extends Component {
                {/* <label className="ConfigureItems">Configure Items</label> */}
                 
                 <div className="input-group">
-                <Link style={{textDecoration: "none"}} to={"/home/AllUsers"}>
+                    <Link style={{textDecoration: "none"}} to={"/home/AllUsers"}>
                     <p class="ButtonSolid" >Users</p>
-                </Link>
-                </div>
-        
+                    </Link>
+                 </div>
+                
                 <div className="input-group">
-                        
                     <Link style={{textDecoration: "none"}} to={"/home/AllBadges"}>
-                        
                     <p class="ButtonSolid">Badges</p>
-    
                     </Link>
                 </div>
 
@@ -55,7 +54,7 @@ export default class Homepage extends Component {
                 </div>
                 
                 <div className="input-group">
-                    <Link style={{textDecoration: "none"}} to={"/playground"}>
+                    <Link style={{textDecoration: "none"}} to={"/home/playground"}>
                     <p class="ButtonSolid">Playground</p>
                     </Link>
     
