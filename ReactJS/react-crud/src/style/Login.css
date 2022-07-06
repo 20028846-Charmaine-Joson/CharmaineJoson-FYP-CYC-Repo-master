@@ -3,34 +3,33 @@
     display: flex;
     width: 10cm;
     margin-bottom: 20px;
-}
-
-.Welcomeback{
+  }
+  
+  .Welcomeback{
     font-weight: bold;
-    margin-bottom: 60px;
-}
-
-.Loginform {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .Loginform {
     position: relative;
     left: 12cm;
     margin-top: 50px;
-}
-
-.inputlogin{
-    margin-right: 35px;
-}
-
-.btn-Login2{
+  }
+  
+  .inputlogin{
+    margin-right: 30px;
+    padding: 3px 6px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+  }
+  
+  .btn-Login2{
     border-color:black;
     color: white;
     background-color: #203864;
     position: relative;
     left: 5cm;
-}
-.btn-back2{
-    border-color:black;
-    color: white;
-    background-color: #203864;
-    position: relative;
-    left: 5cm;
-}
+  
+  }
