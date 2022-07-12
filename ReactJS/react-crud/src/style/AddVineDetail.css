@@ -1,4 +1,3 @@
-
 .SearchBar {
     position: relative;
     left: 24.5cm;
@@ -18,10 +17,24 @@
 
 }
 
-.AddDescriptionVine {
+.AddDetailDesc {
     position: relative;
     right: 0cm;
-    height: 5cm;
+    width: 10cm;
+    margin-top: 20px;
+    
+}
+
+.AddBGColour {
+    position: relative;
+    right: 0cm;
+    width: 10cm;
+    margin-top: 20px;
+    
+}
+.AddColour {
+    position: relative;
+    right: 0cm;
     width: 10cm;
     margin-top: 20px;
     

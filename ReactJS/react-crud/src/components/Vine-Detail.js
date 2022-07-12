@@ -31,6 +31,12 @@ export default class AddVine extends Component {
                 <hr size="4" width="100%" />
                 <text>
                     Home -&gt; Vines -&gt; Vine Details
+
+                    {/* i dont know how to route for this one since it will be based on the data  */}
+                    <Link style={{textDecoration: "none"}} to={"/AddVineDetail"}>
+                    <button class="btn btn-primary btn-BackBtn" >Add Vine Detail</button>
+                    </Link>
+
                     <Link style={{textDecoration: "none"}} to={"/home/ViewVines"}>
                     <button class="btn btn-primary btn-BackBtn" >Back</button>
                     </Link>
@@ -44,8 +50,7 @@ export default class AddVine extends Component {
                             <th style={{ textAlign: "center" }}>Total Badge</th>
                             <th style={{ textAlign: "center" }}>Background Colour</th>
                             <th style={{ textAlign: "center" }}>Colour</th>
-                            <th style={{ textAlign: "center" }}>Date Created</th>
-                            <th style={{ textAlign: "center" }}>Date Modified</th>
+
                         </tr>
                         
                     </thead>
