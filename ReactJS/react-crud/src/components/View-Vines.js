@@ -32,28 +32,29 @@ export default class ViewVines extends Component {
                 <text>
                     Home -&gt; Vines
 
-                <Link style={{textDecoration: "none"}} to={"/home/ViewVines/VineDetail"}>
-                    <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add viewVines">Vine Details</a>
-                </Link>
-
-                <Link style={{textDecoration: "none"}} to={"/home/ViewVines/EditVine"}>
-                    <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add EditVines">Edit Vine</a>
-                </Link>
-                
                 <Link style={{textDecoration: "none"}} to={"/home/ViewVines/AddVine"}>
-                        <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add addVines">Add Vine</a>
+                        <a href="/ViewVines/new" type="button" class="btn btn-primary btn-Add addVines">Add New Vine</a>
                 </Link>
 
+                
+                <table className="styled-table">
+                    <thead>
+                        <tr>
+
+                            {/* e.g. if there is a vine named "Linux", when the admin clicks on the name, it will lead them to the vine details page instead  */}
+                            <th style={{ textAlign: "center" }}>Vines</th>
+                            <th style={{ textAlign: "center" }}>Description</th>
+                            
+                           {/* action will only be edit or delete button */}
+                            <th style={{ textAlign: "center" }}>Action</th>
+
+                        </tr>
+                    
+                    </thead>
+                    </table>
 
                 </text>
-                
-               
 
-                <div> 
-                <img src={vines}  alt="vines" className="vine-logo" />
-                </div>
-
-               
             </div>
     
             );

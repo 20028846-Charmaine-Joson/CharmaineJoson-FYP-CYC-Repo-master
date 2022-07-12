@@ -33,9 +33,10 @@ class App extends Component {
             <Route exact path="/home/ViewVines/AddVine" element={<AddVine />} />
             <Route exact path="/home/ViewVines/EditVine" element={<EditVine />} />
             <Route exact path="/home/ViewVines/VineDetail" element={<VineDetail />} />
-
             <Route exact path="/home/AllBadges" element={<AllBadgesList />} />
             <Route exact path="/home/playground" element={<PlaygroundDisplay />} />
+
+
             
           </Routes>
         </div>  
